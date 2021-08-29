@@ -7,33 +7,29 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAELcSphJP9zfZgHUVwbgJr3ctDcwXj2rAACuAcAArHWCFUxMUPx-GRPIiAE")
+    await message.reply_sticker("CAACAgUAAxkBAAEGU0JhK49gLY2KvJUabs-p1A8BOUtFXgACBAMAAmA2WVUykujmd_XWISAE")
     await message.reply_text(
-        f"""Hey 👋 
-I am Carvinal Music Bot, Use me to play music in your groups Voice Chat.
-Hosted On VPS, So no lag
-✅Need Help /help
+        f"""𝐇𝐞𝐲 👋 
+𝐈 𝐚𝐦 𝐂𝐚𝐫𝐯𝐢𝐧𝐚𝐥 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭, 𝐔𝐬𝐞 𝐦𝐞 𝐭𝐨 𝐩𝐥𝐚𝐲 𝐦𝐮𝐬𝐢𝐜 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩𝐬 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭.
+𝐇𝐨𝐬𝐭𝐞𝐝 𝐎𝐧 𝐕𝐏𝐒, 𝐒𝐨 𝐧𝐨 𝐥𝐚𝐠
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support", url="https://t.me/AddySupport"
+                        "💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/AddySupport"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Updates", url="https://t.me/AddyUpdates"
-                    ),
-                    InlineKeyboardButton(
-                        "Owner😎", url="https://t.me/AddyxD"
+                        "🔊 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/AddyUpdates"
                     )
                 ],
                 [ 
                     InlineKeyboardButton(
-                        "🤔Commands", url="https://t.me/AddyUpdates/2"
+                        "🤔𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", url="https://t.me/AddyUpdates/5"
                     )],
                 [ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/CarvinalMusicBot?startgroup=true"
+                        "➕ 𝐀𝐝𝐝 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url="https://t.me/CarnivalMusicBot?startgroup=true"
                     )]
             ]
         ),
@@ -42,7 +38,7 @@ Hosted On VPS, So no lag
             # Kanged by @AddyxD
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**One Music Bot Online ✅**""",
+      await message.reply_text("""𝐎𝐧𝐞 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭 𝐎𝐧𝐥𝐢𝐧𝐞 ✅""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
