@@ -4,7 +4,8 @@ A simple bot that can play music on telegram group's voice call. From Youtube, J
 
 
 ##Deploy / Host
-Most Easiest way to deploy this bot 
+Most Easiest way to deploy this bot
+
 [![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AddyxD/MusicBot)
 
 ### Requirements 📝
