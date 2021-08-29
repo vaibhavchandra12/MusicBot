@@ -588,7 +588,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += " " + str(i)
         print(query)
-        await lel.edit("ıllıllı **Ꭾяσ¢єѕѕιηg**ıllıllı  ♩✌")
+        await lel.edit("ıllıllı **Fιɳԃιɳɠ**ıllıllı  ♩✌")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         
         try:
@@ -768,7 +768,7 @@ async def ytplay(_, message: Message):
             f"<i> {user.first_name} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐧𝐨𝐭 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐜𝐡𝐚𝐭, 𝐀𝐬𝐤 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐬𝐞𝐧𝐝 /userbotjoin 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐟𝐨𝐫 𝐟𝐢𝐫𝐬𝐭 𝐭𝐢𝐦𝐞 𝐨𝐫 𝐚𝐝𝐝 {user.first_name} 𝐦𝐚𝐧𝐮𝐚𝐥𝐥𝐲</i>"
         )
         return
-    await lel.edit("ıllıllı **Ꭾяσ¢єѕѕιηg**ıllıllı  ♩✌")
+    await lel.edit("ıllıllı **Fιɳԃιɳɠ**ıllıllı  ♩✌")
     user_id = message.from_user.id
     user_name = message.from_user.first_name
      
