@@ -494,7 +494,7 @@ async def play(_, message: Message):
         )
         return
     text_links=None
-    await lel.edit("ıllıllı **Ꭾяσ¢єѕѕιηg**ıllıllı  ♩✌")
+    await lel.edit("ıllıllı **Fιɳԃιɳɠ**ıllıllı  ♩✌")
     if message.reply_to_message:
         entities = []
         toxt = message.reply_to_message.text or message.reply_to_message.caption
