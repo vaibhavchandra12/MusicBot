@@ -588,7 +588,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += " " + str(i)
         print(query)
-        await lel.edit("ıllıllı **Fιɳԃιɳɠ**ıllıllı  ♩✌")
+        await lel.edit("ıllıllı **Ꭾяσ¢єѕѕιηg**ıllıllı  ♩✌")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         
         try:
